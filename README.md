@@ -9,6 +9,7 @@ chmod u+x run clean # add permissions to run as an executable
 ```
 then run the **run** script:
 ```bash
+cmake .
 ./run Sandbox # set the executable as Sandbox
 ```
 ## How to use 
