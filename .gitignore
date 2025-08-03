@@ -1,0 +1,19 @@
+# CMake build files
+/CMakeCache.txt
+/CMakeFiles/
+/Makefile
+/cmake_install.cmake
+
+
+# Engine folder
+/Engine/CMakeCache.txt
+/Engine/CMakeFiles/
+/Engine/Makefile
+/Engine/cmake_install.cmake
+
+# Sandbox folder
+/Sandbox/CMakeCache.txt
+/Sandbox/CMakeFiles/
+/Sandbox/Makefile
+/Sandbox/cmake_install.cmake
+

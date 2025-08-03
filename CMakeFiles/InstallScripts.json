@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/data/data/com.termux/files/home/TextScript/cmake_install.cmake",
+		"/data/data/com.termux/files/home/TextScript/Engine/cmake_install.cmake",
+		"/data/data/com.termux/files/home/TextScript/Sandbox/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
