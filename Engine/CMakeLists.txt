@@ -1,4 +1,4 @@
-file(GLOB_RECURSE SOURCES "src/*.cpp")
+file(GLOB_RECURSE SOURCES "src/*.cpp" "src/Objects/*.cpp")
 list(REMOVE_ITEM SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/src/pch.cpp")
 
 add_library(Engine SHARED ${SOURCES})
