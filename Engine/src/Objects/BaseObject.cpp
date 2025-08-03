@@ -1,11 +1,6 @@
 #include "Objects/BaseObject.h"
 
-#include <iostream>
-#include <string>
-#include <random>
-#include <chrono>
-#include <sstream>
-#include <iomanip>
+#include "pch.h"
 
 std::string hash(const std::string& data) {
     std::hash<std::string> hasher;
