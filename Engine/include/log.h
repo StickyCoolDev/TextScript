@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 #ifdef _WIN32
-  #ifdef MYLIBRARY_EXPORTS
+  #ifdef T_EXPORTS
     #define TEXTSCRIPT_API __declspec(dllexport)
   #else
     #define TEXTSCRIPT_API __declspec(dllimport)
