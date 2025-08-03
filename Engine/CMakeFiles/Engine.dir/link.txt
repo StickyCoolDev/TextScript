@@ -1,1 +1,0 @@
-/data/data/com.termux/files/usr/bin/c++ -fPIC -O2 -g -DNDEBUG -Xlinker --dependency-file=CMakeFiles/Engine.dir/link.d -shared -Wl,-soname,libEngine.so -o ../lib/libEngine.so CMakeFiles/Engine.dir/src/TextScript.cpp.o CMakeFiles/Engine.dir/src/log.cpp.o "CMakeFiles/Engine-pch.dir/src/pch.cpp.o"

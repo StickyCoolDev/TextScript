@@ -1,1 +1,0 @@
-/data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG -Xlinker --dependency-file=CMakeFiles/Sandbox.dir/link.d CMakeFiles/Sandbox.dir/src/main.cpp.o -o ../bin/Sandbox  -Wl,-rpath,/data/data/com.termux/files/home/TextScript/lib ../lib/libEngine.so
