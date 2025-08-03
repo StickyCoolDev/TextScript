@@ -1,6 +1,9 @@
-#include "TextScript.h" // inculde engine
+#include "TextScript.h" // include game engine
+#include "sandbox.h"    // import our 'game'
 
 int main() {
-    LOG_INFO("Sandbox app running");
-    return 0;
+   Game game("Sandbox App"); // initialise the app
+   game.Run(); // run the app
+   return 0;
 }
+
