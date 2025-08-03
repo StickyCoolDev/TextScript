@@ -4,6 +4,10 @@
 /Makefile
 /cmake_install.cmake
 
+# Build files
+/bin
+/lib
+
 
 # Engine folder
 /Engine/CMakeCache.txt
