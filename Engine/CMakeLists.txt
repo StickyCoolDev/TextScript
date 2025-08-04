@@ -7,6 +7,8 @@ target_include_directories(Engine-pch PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/includ
 add_library(Engine SHARED ${SOURCES})
 
 target_link_libraries(Engine PRIVATE Engine-pch)
+target_link_libraries(Engine PUBLIC ncurses)
+
 
 target_precompile_headers(Engine PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/include/pch.h")
 

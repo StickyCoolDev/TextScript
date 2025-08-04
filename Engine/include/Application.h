@@ -10,7 +10,7 @@
   #define TEXTSCRIPT_API
 #endif
 
-#include <string>
+#include "pch.h"
 
 namespace TextScript {
   class TEXTSCRIPT_API Application {
@@ -23,7 +23,6 @@ namespace TextScript {
 
     virtual void OnStart();
     virtual void OnUpdate();
-
   private:
     bool m_IsRunning = true;
     std::string m_ApplicationName = "";

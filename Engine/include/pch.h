@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 #include <vector>
 #include <string>
@@ -6,3 +7,7 @@
 #include <chrono>
 #include <sstream>
 #include <iomanip>
+#include <thread>
+#include <ncurses.h>
+#include <sys/param.h>
+#include <locale.h>
