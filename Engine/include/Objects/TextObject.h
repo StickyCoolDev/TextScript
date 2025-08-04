@@ -7,7 +7,7 @@ namespace TextScript {
   class TextObject : public TextScript::BaseObject {
   public:
     TextObject(const std::string& name) : BaseObject(name) {} 
-    std::string Text = "x";
+    std::string Text = "█";
     
     void Draw();
   private:
