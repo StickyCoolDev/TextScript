@@ -4,11 +4,12 @@
 #include "Objects/BaseObject.h"
 
 namespace TextScript {
-  class TextObject : TextScript::BaseObject {
+  class TextObject : public TextScript::BaseObject {
   public:
-    TextObject();
-    std::string Text = "█";
+    TextObject(const std::string& name) : BaseObject(name) {} 
+    std::string Text = "x";
     
+    void Draw();
   private:
     
   };

@@ -23,9 +23,12 @@ namespace TextScript {
 
     virtual void OnStart();
     virtual void OnUpdate();
+    virtual void OnInput(std::string Key);
+    
   private:
     bool m_IsRunning = true;
     std::string m_ApplicationName = "";
+    std::string m_CurrentKeyboardKey = "";
   };
 }; // namespace TextScript
 
