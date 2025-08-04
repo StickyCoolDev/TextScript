@@ -6,8 +6,8 @@ namespace TextScript {
   class BaseObject {
   public:
     BaseObject(std::string name, int x=0, int y=0);
-    int X = 0;
-    int Y = 0;
+    unsigned short X = 0;
+    unsigned short Y = 0;
     
   public:
     std::string GetName(){ return m_Name;}

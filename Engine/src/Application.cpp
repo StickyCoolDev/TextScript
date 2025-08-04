@@ -34,7 +34,7 @@ namespace TextScript {
   void Application::Close() {
     m_IsRunning = false;
     endwin();
-    LOG_INFO("\033[48;5;208m\033[37mEngine\033[0m User exited Application");
+    LOG_INFO("\033[48;5;208m\033[37m Engine \033[0m User exited Application");
   }
 
   void Application::OnStart() {
