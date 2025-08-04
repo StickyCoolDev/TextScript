@@ -1,5 +1,4 @@
 #include "Objects/BaseObject.h"
-
 #include "pch.h"
 
 std::string hash(const std::string& data) {
@@ -12,7 +11,6 @@ std::string hash(const std::string& data) {
 }
 
 std::string generateUniqueId() {
-
     auto now = std::chrono::high_resolution_clock::now();
     auto timestamp = now.time_since_epoch().count();
 
