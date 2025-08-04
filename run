@@ -1,6 +1,16 @@
 #!/bin/bash
 
-# Check if an executable name is provided as an argument
+
+CMAKE_FILES="./CMakeFiles"
+
+if [[ -d "$CMAKE_FILES" ]]; then
+   echo "cmake files found" 
+else
+    echo "CMakeFiles not found. running cmake"
+    cmake .
+fi
+
+
 if [ -z "$1" ]; then
     echo "build and run"
     echo "Usage: $0 <executable_name>"
@@ -9,20 +19,17 @@ fi
 
 EXECUTABLE_NAME=$1
 
-# Build the project
 clear
 
-# Use a heredoc to assign the multi-line string to the MESSAGE variable
 MESSAGE=$(cat message.txt) 
 
-echo "${MESSAGE} ${EXECUTABLE_NAME}"
+echo -e "${MESSAGE} ${EXECUTABLE_NAME}"
 
 cmake --build .
 
-# Make the specified executable runnable
+
 chmod u+x "bin/${EXECUTABLE_NAME}"
 
-# Run the executable
 echo ""
 echo "running App"
 "./bin/${EXECUTABLE_NAME}"

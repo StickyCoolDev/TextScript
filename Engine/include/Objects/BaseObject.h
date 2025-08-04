@@ -10,8 +10,8 @@ namespace TextScript {
     int Y = 0;
     
   public:
-    std::string GetName(){return m_Name;}
-    std::string GetObjectID(){return m_ID;}
+    std::string GetName(){ return m_Name;}
+    std::string GetObjectID(){ return m_ID; }
 
   private:
     std::string m_Name = "";

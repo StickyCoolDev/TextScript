@@ -17,6 +17,8 @@ namespace TextScript {
         TEXTSCRIPT_API void log_error(std::string message);
     }
 }
+
+// Logging macros
 #define LOG_INFO(MESSSAGE)  TextScript::Logger::log_info(MESSSAGE)
 #define LOG_WARN(MESSSAGE)  TextScript::Logger::log_warn(MESSSAGE)
 #define LOG_ERROR(MESSSAGE) TextScript::Logger::log_error(MESSSAGE)
