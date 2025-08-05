@@ -1,4 +1,4 @@
-file(GLOB_RECURSE SOURCES "src/*.cpp" "src/Objects/*.cpp")
+file(GLOB_RECURSE SOURCES "src/*.cpp" "src/Objects/*.cpp" "src/Event/*.cpp")
 list(REMOVE_ITEM SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/src/pch.cpp")
 
 add_library(Engine-pch OBJECT "${CMAKE_CURRENT_SOURCE_DIR}/src/pch.cpp")
