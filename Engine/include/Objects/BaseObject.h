@@ -1,9 +1,10 @@
 #pragma once
 
 #include "pch.h"
+#include "textscript_api.h"
 
 namespace TextScript {
-  class BaseObject {
+  class TEXTSCRIPT_API BaseObject {
   public:
     BaseObject(const std::string& name, int x=0, int y=0);
     unsigned short X = 0;

@@ -1,15 +1,6 @@
 #pragma once
 
-#ifdef _WIN3
-  #ifdef T_EXPORTS
-    #define TEXTSCRIPT_API __declspec(dllexport)
-  #else
-    #define TEXTSCRIPT_API __declspec(dllimport)
-  #endif
-#else //Linux/macOS
-  #define TEXTSCRIPT_API
-#endif
-
+#include "textscript_api.h"
 #include "pch.h"
 
 namespace TextScript {
@@ -31,5 +22,5 @@ namespace TextScript {
     std::string m_ApplicationName = "";
     std::string m_CurrentKeyboardKey = "";
   };
-}; // namespace TextScript
+};
 
