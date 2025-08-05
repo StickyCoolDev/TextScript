@@ -37,14 +37,18 @@ namespace TextScript {
     LOG_INFO("\033[48;5;208m\033[37m Engine \033[0m User exited Application");
   }
 
-  void Application::OnStart() {
+  void Application::RefreshScreen(){
+    refresh();
+  }
+
+  void Application::OnStart(){
     // Override in derived class
   }
 
   void Application::OnUpdate() {
     // Override in derived class
   }
-  void Application::OnInput(std::string Key){
+  void Application::OnInput(const std::string& Key){
     // Override in derived class 
   }
 } // namespace TextScript

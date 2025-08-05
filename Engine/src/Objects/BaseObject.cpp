@@ -28,7 +28,7 @@ std::string generateUniqueId() {
 }
 
 namespace TextScript {
-  BaseObject::BaseObject(std::string name, int x, int y)
+  BaseObject::BaseObject(const std::string& name, int x, int y)
     : m_Name(name), X(x), Y(y){
     m_ID = generateUniqueId();
   }

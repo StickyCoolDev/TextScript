@@ -5,7 +5,7 @@
 namespace TextScript {
   class BaseObject {
   public:
-    BaseObject(std::string name, int x=0, int y=0);
+    BaseObject(const std::string& name, int x=0, int y=0);
     unsigned short X = 0;
     unsigned short Y = 0;
     

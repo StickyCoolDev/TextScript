@@ -20,10 +20,11 @@ namespace TextScript {
 
     void Run();
     void Close();
+    void RefreshScreen();
 
     virtual void OnStart();
     virtual void OnUpdate();
-    virtual void OnInput(std::string Key);
+    virtual void OnInput(const std::string& Key);
     
   private:
     bool m_IsRunning = true;

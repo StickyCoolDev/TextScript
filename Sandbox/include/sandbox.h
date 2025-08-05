@@ -4,7 +4,6 @@
 
 class Game : public TextScript::Application {
 public:
-  // Use the member initializer list to initialize the 'player' object
   Game(const std::string& name) 
     : TextScript::Application(name), player("player") {}
     
@@ -16,10 +15,10 @@ public:
   }
   void OnUpdate() override {
     player.Draw();
-    refresh();
+    RefreshScreen();
   }
 
-  void OnInput(std::string Key) override {
+  void OnInput(const std::string& Key) override {
     if (Key == "d" ) {
       player.X++;
     }
@@ -32,6 +31,6 @@ public:
     }
   }
 private:
-  TextScript::TextObject player; // Declare the member variable here
+  TextScript::TextObject player;
 };
 
