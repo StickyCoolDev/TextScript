@@ -1,0 +1,68 @@
+[
+{
+  "directory": "/data/data/com.termux/files/home/TextScript/Engine",
+  "command": "/data/data/com.termux/files/usr/bin/c++  -I/data/data/com.termux/files/home/TextScript/Engine/include -O2 -g -DNDEBUG -o CMakeFiles/Engine-pch.dir/src/pch.cpp.o -c /data/data/com.termux/files/home/TextScript/Engine/src/pch.cpp",
+  "file": "/data/data/com.termux/files/home/TextScript/Engine/src/pch.cpp",
+  "output": "Engine/CMakeFiles/Engine-pch.dir/src/pch.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/TextScript/Engine",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DEngine_EXPORTS -DT_EXPORTS -I/data/data/com.termux/files/home/TextScript/Engine/include -O2 -g -DNDEBUG -fPIC -Winvalid-pch -fpch-instantiate-templates -Xclang -emit-pch -Xclang -include -Xclang /data/data/com.termux/files/home/TextScript/Engine/CMakeFiles/Engine.dir/cmake_pch.hxx -x c++-header -o CMakeFiles/Engine.dir/cmake_pch.hxx.pch -c /data/data/com.termux/files/home/TextScript/Engine/CMakeFiles/Engine.dir/cmake_pch.hxx.cxx",
+  "file": "/data/data/com.termux/files/home/TextScript/Engine/CMakeFiles/Engine.dir/cmake_pch.hxx.cxx",
+  "output": "Engine/CMakeFiles/Engine.dir/cmake_pch.hxx.pch"
+},
+{
+  "directory": "/data/data/com.termux/files/home/TextScript/Engine",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DEngine_EXPORTS -DT_EXPORTS -I/data/data/com.termux/files/home/TextScript/Engine/include -O2 -g -DNDEBUG -fPIC -Winvalid-pch -Xclang -include-pch -Xclang /data/data/com.termux/files/home/TextScript/Engine/CMakeFiles/Engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /data/data/com.termux/files/home/TextScript/Engine/CMakeFiles/Engine.dir/cmake_pch.hxx -o CMakeFiles/Engine.dir/src/Application.cpp.o -c /data/data/com.termux/files/home/TextScript/Engine/src/Application.cpp",
+  "file": "/data/data/com.termux/files/home/TextScript/Engine/src/Application.cpp",
+  "output": "Engine/CMakeFiles/Engine.dir/src/Application.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/TextScript/Engine",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DEngine_EXPORTS -DT_EXPORTS -I/data/data/com.termux/files/home/TextScript/Engine/include -O2 -g -DNDEBUG -fPIC -Winvalid-pch -Xclang -include-pch -Xclang /data/data/com.termux/files/home/TextScript/Engine/CMakeFiles/Engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /data/data/com.termux/files/home/TextScript/Engine/CMakeFiles/Engine.dir/cmake_pch.hxx -o CMakeFiles/Engine.dir/src/Event/Event.cpp.o -c /data/data/com.termux/files/home/TextScript/Engine/src/Event/Event.cpp",
+  "file": "/data/data/com.termux/files/home/TextScript/Engine/src/Event/Event.cpp",
+  "output": "Engine/CMakeFiles/Engine.dir/src/Event/Event.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/TextScript/Engine",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DEngine_EXPORTS -DT_EXPORTS -I/data/data/com.termux/files/home/TextScript/Engine/include -O2 -g -DNDEBUG -fPIC -Winvalid-pch -Xclang -include-pch -Xclang /data/data/com.termux/files/home/TextScript/Engine/CMakeFiles/Engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /data/data/com.termux/files/home/TextScript/Engine/CMakeFiles/Engine.dir/cmake_pch.hxx -o CMakeFiles/Engine.dir/src/Event/Keyboard.cpp.o -c /data/data/com.termux/files/home/TextScript/Engine/src/Event/Keyboard.cpp",
+  "file": "/data/data/com.termux/files/home/TextScript/Engine/src/Event/Keyboard.cpp",
+  "output": "Engine/CMakeFiles/Engine.dir/src/Event/Keyboard.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/TextScript/Engine",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DEngine_EXPORTS -DT_EXPORTS -I/data/data/com.termux/files/home/TextScript/Engine/include -O2 -g -DNDEBUG -fPIC -Winvalid-pch -Xclang -include-pch -Xclang /data/data/com.termux/files/home/TextScript/Engine/CMakeFiles/Engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /data/data/com.termux/files/home/TextScript/Engine/CMakeFiles/Engine.dir/cmake_pch.hxx -o CMakeFiles/Engine.dir/src/Objects/BaseObject.cpp.o -c /data/data/com.termux/files/home/TextScript/Engine/src/Objects/BaseObject.cpp",
+  "file": "/data/data/com.termux/files/home/TextScript/Engine/src/Objects/BaseObject.cpp",
+  "output": "Engine/CMakeFiles/Engine.dir/src/Objects/BaseObject.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/TextScript/Engine",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DEngine_EXPORTS -DT_EXPORTS -I/data/data/com.termux/files/home/TextScript/Engine/include -O2 -g -DNDEBUG -fPIC -Winvalid-pch -Xclang -include-pch -Xclang /data/data/com.termux/files/home/TextScript/Engine/CMakeFiles/Engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /data/data/com.termux/files/home/TextScript/Engine/CMakeFiles/Engine.dir/cmake_pch.hxx -o CMakeFiles/Engine.dir/src/Objects/TextObject.cpp.o -c /data/data/com.termux/files/home/TextScript/Engine/src/Objects/TextObject.cpp",
+  "file": "/data/data/com.termux/files/home/TextScript/Engine/src/Objects/TextObject.cpp",
+  "output": "Engine/CMakeFiles/Engine.dir/src/Objects/TextObject.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/TextScript/Engine",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DEngine_EXPORTS -DT_EXPORTS -I/data/data/com.termux/files/home/TextScript/Engine/include -O2 -g -DNDEBUG -fPIC -Winvalid-pch -Xclang -include-pch -Xclang /data/data/com.termux/files/home/TextScript/Engine/CMakeFiles/Engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /data/data/com.termux/files/home/TextScript/Engine/CMakeFiles/Engine.dir/cmake_pch.hxx -o CMakeFiles/Engine.dir/src/TextScript.cpp.o -c /data/data/com.termux/files/home/TextScript/Engine/src/TextScript.cpp",
+  "file": "/data/data/com.termux/files/home/TextScript/Engine/src/TextScript.cpp",
+  "output": "Engine/CMakeFiles/Engine.dir/src/TextScript.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/TextScript/Engine",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DEngine_EXPORTS -DT_EXPORTS -I/data/data/com.termux/files/home/TextScript/Engine/include -O2 -g -DNDEBUG -fPIC -Winvalid-pch -Xclang -include-pch -Xclang /data/data/com.termux/files/home/TextScript/Engine/CMakeFiles/Engine.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /data/data/com.termux/files/home/TextScript/Engine/CMakeFiles/Engine.dir/cmake_pch.hxx -o CMakeFiles/Engine.dir/src/log.cpp.o -c /data/data/com.termux/files/home/TextScript/Engine/src/log.cpp",
+  "file": "/data/data/com.termux/files/home/TextScript/Engine/src/log.cpp",
+  "output": "Engine/CMakeFiles/Engine.dir/src/log.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/TextScript/Sandbox",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DT_EXPORTS -I/data/data/com.termux/files/home/TextScript/Sandbox/include -I/data/data/com.termux/files/home/TextScript/Engine/include -O2 -g -DNDEBUG -Winvalid-pch -fpch-instantiate-templates -Xclang -emit-pch -Xclang -include -Xclang /data/data/com.termux/files/home/TextScript/Sandbox/CMakeFiles/Sandbox.dir/cmake_pch.hxx -x c++-header -o CMakeFiles/Sandbox.dir/cmake_pch.hxx.pch -c /data/data/com.termux/files/home/TextScript/Sandbox/CMakeFiles/Sandbox.dir/cmake_pch.hxx.cxx",
+  "file": "/data/data/com.termux/files/home/TextScript/Sandbox/CMakeFiles/Sandbox.dir/cmake_pch.hxx.cxx",
+  "output": "Sandbox/CMakeFiles/Sandbox.dir/cmake_pch.hxx.pch"
+},
+{
+  "directory": "/data/data/com.termux/files/home/TextScript/Sandbox",
+  "command": "/data/data/com.termux/files/usr/bin/c++ -DT_EXPORTS -I/data/data/com.termux/files/home/TextScript/Sandbox/include -I/data/data/com.termux/files/home/TextScript/Engine/include -O2 -g -DNDEBUG -Winvalid-pch -Xclang -include-pch -Xclang /data/data/com.termux/files/home/TextScript/Sandbox/CMakeFiles/Sandbox.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /data/data/com.termux/files/home/TextScript/Sandbox/CMakeFiles/Sandbox.dir/cmake_pch.hxx -o CMakeFiles/Sandbox.dir/src/main.cpp.o -c /data/data/com.termux/files/home/TextScript/Sandbox/src/main.cpp",
+  "file": "/data/data/com.termux/files/home/TextScript/Sandbox/src/main.cpp",
+  "output": "Sandbox/CMakeFiles/Sandbox.dir/src/main.cpp.o"
+}
+]

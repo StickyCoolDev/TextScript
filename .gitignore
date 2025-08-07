@@ -7,7 +7,7 @@
 # Build files
 /bin
 /lib
-
+/cache
 
 # Engine folder
 /Engine/CMakeCache.txt

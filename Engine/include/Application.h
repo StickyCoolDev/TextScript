@@ -2,6 +2,7 @@
 
 #include "textscript_api.h"
 #include "pch.h"
+#include "Event/Keyboard.h"
 
 namespace TextScript {
   class TEXTSCRIPT_API Application {
@@ -15,7 +16,7 @@ namespace TextScript {
 
     virtual void OnStart();
     virtual void OnUpdate();
-    virtual void OnInput(const std::string& Key);
+    virtual void OnInput(KeyboardButtonPressEvent Key);
     
   private:
     bool m_IsRunning = true;

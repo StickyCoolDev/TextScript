@@ -18,14 +18,14 @@ public:
     RefreshScreen();
   }
 
-  void OnInput(const std::string& Key) override {
-    if (Key == "d" ) {
+  void OnInput(TextScript::KeyboardButtonPressEvent Key) override {
+    if (Key.GetKeyPress() == "d" ) {
       player.X++;
     }
-    if (Key == "a") {
+    if (Key.GetKeyPress() == "a") {
       player.X--;
     }
-    if (Key == "q"){
+    if (Key.GetKeyPress() == "q"){
       Close();
       
     }

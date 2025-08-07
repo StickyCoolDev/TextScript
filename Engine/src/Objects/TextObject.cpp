@@ -4,7 +4,6 @@
 namespace TextScript {
   void TextObject::Draw(){
     clear();
-    move(Y, X);
-    addstr(Text.c_str());
+    mvprintw(Y, X, "%s", Text.c_str());
   }
 }

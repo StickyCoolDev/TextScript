@@ -7,7 +7,7 @@ if [[ -d "$CMAKE_FILES" ]]; then
    echo "cmake files found" 
 else
     echo "CMakeFiles not found. running cmake"
-    cmake .
+    cmake . -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
 fi
 
 

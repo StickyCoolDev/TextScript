@@ -11,7 +11,7 @@ namespace TextScript {
 
   class BaseEvent {
   public:
-    virtual std::name GetEventName(){ return "BaseEvent"; }
+    virtual std::string GetEventName(){ return "BaseEvent"; }
     virtual EventType GetEventType(){ return EventType::Base; }
   };
 }
