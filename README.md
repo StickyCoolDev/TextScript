@@ -25,6 +25,51 @@ int main() {
 
 ```
 
+sandbox.h:
+```cpp
+#pragma once
+#include "TextScript.h"
+
+class Game : public TextScript::Application {
+public:
+  Game(const std::string& name)
+    : TextScript::Application(name), player("player") {}
+
+  void OnStart() override {
+    // This function is called once at the start of the application.
+    LOG_INFO("Application is working");
+    LOG_INFO("Object name is " + player.GetName() + " and ID=" + player.GetObjectID());
+    player.X = 0;
+    player.Y = 0;
+    LOG_INFO("Player position x:" + std::to_string(player.X) + " y:" + std::to_string(player.Y));
+  }
+
+  void OnUpdate() override {
+    // This function is called every frame.
+    player.Draw();
+    RefreshScreen();
+  }
+
+  void OnInput(TextScript::KeyboardButtonPressEvent Key) override {
+    // This function handles keyboard input.
+    if (Key.GetKeyPress() == "d") {
+      player.X++;
+    }
+    if (Key.GetKeyPress() == "a") {
+      player.X--;
+    }
+    if (Key.GetKeyPress() == "q") {
+      Close(); // Quits the application.
+    }
+  }
+
+private:
+  TextScript::TextObject player;
+};
+
+
+```
+
 top level CMakeLists.txt:
 ```Cmake
 cmake_minimum_required(VERSION 3.10)
