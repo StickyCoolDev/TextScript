@@ -1,9 +1,7 @@
 # TextScript
 a conosle base game engine made with C++(Ncurses) and Cmake
 
-
-<img src="https://github.com/user-attachments/assets/8137ed62-85df-4596-95ee-23b9ae4ded08"/>
-
+![TextScript]("./.github/TextScript_Terminal.jpg") 
 ## How to Run
 first clean any unwanted files
 ```bash
