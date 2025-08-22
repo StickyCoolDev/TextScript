@@ -8,6 +8,7 @@
 /bin
 /lib
 /.cache
+/compile_commands.json
 
 # Engine folder
 /Engine/CMakeCache.txt
