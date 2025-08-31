@@ -1,6 +1,6 @@
 #pragma once
 #include "TextScript.h"
-#include <iostream>
+
 
 class Game : public TextScript::Application {
 public:
@@ -11,6 +11,7 @@ public:
     LOG_INFO("Application is working");
     LOG_INFO("object name is " + player.GetName() + " and id=" + player.GetObjectID());
     player.X = 0;
+    
     LOG_INFO("player position x:"+ std::to_string(player.X) + " y:"+ std::to_string(player.Y) );
   }
   void OnUpdate() override {
@@ -26,8 +27,13 @@ public:
       player.X--;
     }
     if (Key.GetKeyPress() == "q"){
-      Close();
-      
+      Close(); 
+    }
+    if (Key.GetKeyPress() == "s"){
+      player.Y--;
+    }
+    if (Key.GetKeyPress() == "w") {
+      player.Y++;
     }
   }
 private:
