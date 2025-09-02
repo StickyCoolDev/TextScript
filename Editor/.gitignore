@@ -1,1 +1,16 @@
 /.venv/
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+*.egg-info/
+.installed.cfg
+*.manifest
+*.spec
+pycache/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.dll

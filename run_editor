@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "running Server"
+cd Editor
+uv sync
+uv run gunicorn app:app
